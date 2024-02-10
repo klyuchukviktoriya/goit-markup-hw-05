@@ -468,8 +468,8 @@
         <div class="subscribe-container">
           <p class="text">Subscribe</p>
           <form class="subscribe-form">
-          <label class="subscribe-label" for="e-mail" autocomplete="off"></label>
-          <input class="subscribe-input" type="email" name="" id="e-mail" placeholder="E-mail">
+          <label class="subscribe-label" for="e-mail"></label>
+          <input class="subscribe-input" type="email" name="e-mail" id="e-mail" placeholder="E-mail">
           </form>
           <button class="subscribe-button" type="submit">
             <svg class="subscribe-icon" width="24" height="24">
@@ -477,6 +477,7 @@
             </svg>
           </button>
         </div>
+      </div>
     </footer>
 
     <!--! Backdrop -->
@@ -494,7 +495,7 @@
             <div class="label">
               <label class="modal-label" for="user-name">Name</label>
               <div class="wrap-icon">
-                <input class="input" type="text" name="user-name" id="name" />
+                <input class="input" type="text" name="name" id="user-name" />
                 <svg class="modal-icon" width="18" height="18">
                   <use href="./images/icons.svg#icon-person-black"></use>
                 </svg>
@@ -503,7 +504,7 @@
             <div class="label">
               <label class="modal-label" for="user-phone">Phone</label>
               <div class="wrap-icon">
-                <input class="input" type="tel" name="user-phone" id="phone" />
+                <input class="input" type="tel" name="phone" id="user-phone" />
                 <svg class="modal-icon" width="18" height="24">
                   <use href="./images/icons.svg#icon-phone-black"></use>
                 </svg>
@@ -515,19 +516,20 @@
                 <input
                   class="input"
                   type="email"
-                  name="user-email"
-                  id="email" />
+                  name="email"
+                  id="user-email" />
                 <svg class="modal-icon" width="18" height="24">
                   <use href="./images/icons.svg#icon-email-black"></use>
                 </svg>
               </div>
             </div>
             <div class="label label-text-area">
-              <label class="modal-label" for="comment">Comment</label>
+              <label class="modal-label" for="user-comment">Comment</label>
               <textarea
                 class="input input-text"
                 name="comment"
-                placeholder="Text input"></textarea>
+                placeholder="Text input"
+                id="user-comment"></textarea>
             </div>
             <div class="label-check">
               <input
