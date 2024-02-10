@@ -500,11 +500,11 @@ img {
 
 .subscribe-container {
   margin-left: 80px;
-  display: flex;
-  gap: 24px;
 }
 
 .subscribe-form {
+  display: flex;
+  gap: 24px;
   width: 264px;
   height: 40px;
   background-color:transparent;
